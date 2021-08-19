@@ -1,14 +1,17 @@
 import React, { useState } from "react";
 import "./styles.css";
-
 var emojiDictionary = {
-  "😊": "smiling",
-  "😲": "disbelief",
-  "😥": "sad",
-  "🥡": "takeout box",
-  "🥰": "love",
-  "😑": "annoyance",
-  "🔥": "fire"
+  "😊": "Smiling",
+  "😲": "Disbelief",
+  "😥": "Sad",
+  "🥡": "Takeout box",
+  "🥰": "Love",
+  "😑": "Annoyance",
+  "🔥": "Fire",
+  "😴": "Sleeping",
+  "😪": "Sleeply",
+  "✌️": "Victory Sign",
+  "😠": "Angry"
 };
 var emojiWeKnow = Object.keys(emojiDictionary);
 
@@ -31,7 +34,7 @@ export default function App() {
   }
   return (
     <div className="App">
-      <h1>Insite outtt</h1>
+      <h1>Emoji Interpreter</h1>
       <input onChange={emojiInputHandler}></input>
       <h2>{meaning}</h2>
       {/* Actual value set by react using useState */}

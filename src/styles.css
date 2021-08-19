@@ -2,7 +2,11 @@
   font-family: sans-serif;
   text-align: center;
 }
- input {
-   padding: 1rem;
-   width: 80%;
- }
+input {
+  padding: 1rem;
+  width: 80%;
+}
+
+body {
+  background-color: lightsteelblue;
+}
