@@ -3,7 +3,7 @@
 
 This is an Emoji Interpreter App , Search meaning of Emoji 
 
-* language - Html, Css. JavaScript
+* Technology - Html, Css. JavaScript, React
  
    [Live Link for App](https://myemojidictionary.netlify.app/)
  
